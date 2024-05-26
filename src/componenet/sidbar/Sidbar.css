@@ -1,0 +1,50 @@
+.sidbar {
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: rgb(251, 251, 251);
+    position: sticky;
+    top: 50px;
+
+}
+
+.sidbarwrapper {
+    padding: 20px;
+    color: #555;
+
+}
+
+.sidbarmenu {
+    margin-bottom: 10px;
+
+}
+
+.sidbartittle {
+    font-size: 13px;
+    color: rgb(187, 186, 186);
+}
+
+.siodbarlist {
+    list-style: none;
+    padding: 5px;
+
+}
+
+.sidbarlistitem {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.sidbarlistitem.active,
+.sidbarlistitem:hover {
+    background-color: rgb(193, 193, 209);
+}
+
+.sidebaricon {
+    margin-right: 5px;
+    font-size: 20px;
+
+}
